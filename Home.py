@@ -9,8 +9,7 @@ import openai
 openai.api_key = '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'
 import openai
 import streamlit as st
-import pinecone
-import datetime
+
 from deta import Deta
 
 
