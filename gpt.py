@@ -1,5 +1,6 @@
 import streamlit as st
-import openai
+import os
+openai.api_key = os.environ['OPENAI_API_KEY']
 
 # Configuração das credenciais do OpenAI GPT-3
 openai.api_key = "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"
