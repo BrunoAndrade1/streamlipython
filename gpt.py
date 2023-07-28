@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Configuração das credenciais do OpenAI GPT-3
-openai.api_key = "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"
+openai.api_key = st.secrets["auth_key"] 
 
 
 def chat_with_gpt3(prompt, max_tokens=100):
